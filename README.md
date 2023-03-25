@@ -1,5 +1,5 @@
 # My neovim set up
-This is all my neovim set up files, including the .vimrc which was renamed to index.vim, a file for plugins called [**plugins.vim**](#-plugins.vim), a file for maps called [**maps.vim**](#-maps.vim) and a file for the sets called [**sets.vim**](#-sets.vim).
+This is all my neovim set up files, including the .vimrc which was renamed to index.vim, a file for plugins called [**plugins.vim**](#-pluginsvim), a file for maps called [**maps.vim**](#-mapsvim) and a file for the sets called [**sets.vim**](#-setsvim).
 
 ## .vimrc and index.vim
 In order to move my vim configuration to this repository I had to move all my files to another folder. The **.vimrc** file which is the default file loaded, only contains one line sourcing the **index.vim** file, which has all the .vimrc configuration.
