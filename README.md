@@ -1,5 +1,5 @@
 # My neovim set up
-This is all my neovim set up files, including the .vimrc which was renamed to index.vim, a file for plugins called [**plugins.vim**](#plugins), a file for maps called [**maps.vim**](#maps) and a file for the sets called [**sets.vim**](#sets).
+This is all my neovim set up files, including the .vimrc which was renamed to index.vim, a file for plugins called [**plugins.vim**](#-plugins.vim), a file for maps called [**maps.vim**](#-maps.vim) and a file for the sets called [**sets.vim**](#-sets.vim).
 
 ## .vimrc and index.vim
 In order to move my vim configuration to this repository I had to move all my files to another folder. The **.vimrc** file which is the default file loaded, only contains one line sourcing the **index.vim** file, which has all the .vimrc configuration.
@@ -7,7 +7,7 @@ In order to move my vim configuration to this repository I had to move all my fi
 source <sfile>:h/my-nvim/index.vim
 ```
 
-## plugins.vim {#plugins}
+## plugins.vim
 This vim configuration uses [vim-plug](https://github.com/junegunn/vim-plug) to install plugins.
 
 This file has all the plugins installed in my vim config file. When adding a new plugin, just copy the following code and replace with your values. Some plugins require a diferent code, so be aware of that.
@@ -21,10 +21,10 @@ After doing that, use the following commands:
 ```
 I recommend running `:PlugUpdate` regularly to keep all the plugis up to date.
 
-## sets.vim {#sets}
+## sets.vim
 This file has all the sets of the default neovim. You can configure this file as you like, adding or removing some lines, or just changed their values.
 
-## maps.vim {#maps}
+## maps.vim
 This file has custom key maps and keyboard shortcuts. Most of the shortcuts are to run a specific action of a plugin. You can add your own shortcuts here.
 
 > :warning: After opening making changes in any of these files, use `:so ~/.vimrc` to make those changes valid.
