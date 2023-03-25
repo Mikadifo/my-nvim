@@ -74,6 +74,7 @@ let g:tex_flavor = 'latex'
 "let g:vimtex_compiler_latexmk = {'continuous': 0}
 "let g:vimtex_latexmk_options = '-pdf -shell-escape -verbose -file-line-error -synctex=1 -interaction=nonstopmode'
 
+let g:UltiSnipsSnippetDirectories = ['UltiSnips']
 let g:UltiSnipsExpandTrigger = '<tab>'
 let g:UltiSnipsJumpForwardTrigger = '<C-j>'
 let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
