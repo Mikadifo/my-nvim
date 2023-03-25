@@ -32,7 +32,7 @@ This file has custom key maps and keyboard shortcuts. Most of the shortcuts are 
 # License
 You can use this repository as you like, as longs as the purpose is not something negative or harmful.
 
-# Future Changes
+# Contribuing
 This is a personal project, just to keep my nvim organized and to have it as a backup in case I replace my computer. However, I you want to fix something or update something feel free and welcome to do so.
 
 # Future Changes
