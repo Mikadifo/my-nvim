@@ -108,31 +108,73 @@ Plug 'othree/xml.vim'
 ```
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 ```
->**Notes:** See official repository for more information. I'm not sure if it should be added to the coc extension list in order to work.
+>**Notes:** See official repository for more information.
 
-" GraphQL, supports in js and ts files as well
+### GraphQL
+:computer: **Repository:** https://github.com/jparise/vim-graphql
+
+:information_source: **About:** This is a syntax plugin for graphql.
+
+:wrench: **Configuration** Just paste the following codes in the .vimrc. If using this project, paste on [plugins.vim](./plugins.vim).
+```
 Plug 'jparise/vim-graphql'
+```
+>**Notes:** This plugin also supports graphql in js files. See official repository for more information. 
 
-" JS
-Plug 'maxmellon/vim-jsx-pretty'
-"Plug 'mxw/vim-jsx' "React
-"Plug 'othree/yajs.vim' "causing color theme changes
-"Plug 'beautify-web/js-beautify'
-"Plug 'pangloss/vim-javascript' "causing color theme changes
+### Python 3
+:computer: **Repository:** https://github.com/jmcantrell/vim-virtualenv
 
-" TS
-"Plug 'leafgarland/typescript-vim'
-Plug 'peitalin/vim-jsx-typescript'
+:information_source: **About:** This plugin helps to manage python virtual envs.
 
-" Java
-"Plug 'uiiaoo/java-syntax.vim'
-"Plug 'artur-shaik/vim-javacomplete2'
-
-" Python 3
+:wrench: **Configuration** Just paste the following codes in the .vimrc. If using this project, paste on [plugins.vim](./plugins.vim).
+```
 "Plug 'jmcantrell/vim-virtualenv'
+```
+>**Notes:** See official repository for more information.
 
-" Haskell
+### Haskell
+:computer: **Repository:** https://github.com/neovimhaskell/haskell-vim
+
+:information_source: **About:** This is a syntax plugin for haskell.
+
+:wrench: **Configuration** Just paste the following codes in the .vimrc. If using this project, paste on [plugins.vim](./plugins.vim).
+```
 Plug 'neovimhaskell/haskell-vim'
+```
+>**Notes:** See official repository for more information.
+
+### Typescript
+:computer: **Repository:** https://github.com/peitalin/vim-jsx-typescript
+
+:information_source: **About:** This is a syntax plugin for typescript in jsx files.
+
+:wrench: **Configuration** Just paste the following codes in the .vimrc. If using this project, paste on [plugins.vim](./plugins.vim) and [index.vim](./index.vim) respectively.
+```
+Plug 'peitalin/vim-jsx-typescript'
+```
+```
+let g:coc_global_extensions = [
+    \ 'coc-tsserver',
+    \ ]
+```
+>**Notes:** Make sure to include the coc extension for this plugin. See official repository for more information.
+
+### Javascript
+:computer: **Repository:** https://github.com/maxmellon/vim-jsx-pretty
+
+:information_source: **About:** This is a syntax plugin for javascript, including jsx files.
+
+:wrench: **Configuration** Just paste the following codes in the .vimrc. If using this project, paste on [plugins.vim](./plugins.vim) and [index.vim](./index.vim) respectively.
+```
+Plug 'maxmellon/vim-jsx-pretty'
+```
+```
+let g:coc_global_extensions = [
+    \ 'coc-tsserver',
+    \ ]
+```
+>**Notes:** Make sure to include the coc extension for this plugin. See official repository for more information.
+
 ## IDE plugins
 " IDE
 Plug 'tpope/vim-surround'
@@ -149,15 +191,12 @@ Plug 'xuyuanp/nerdtree-git-plugin' " Muestra el estado de los archivos en Nerdtr
 Plug 'preservim/nerdcommenter'
 Plug 'yegappan/taglist' " Provides an overview of the structure of source code files
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
-"Plug 'frazrepo/vim-rainbow' " Rainbow Brackets <3
-"Plug 'mg979/vim-visual-multi', {'branch': 'master'} " multicursor
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
 Plug 'mhinz/vim-startify'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-"Plug 'vim-test/vim-test'
 
 
 ---
