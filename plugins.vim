@@ -2,6 +2,8 @@ call plug#begin('~/.vim/plugged')
 
 " Themes
 Plug 'morhetz/gruvbox'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " IDE
 Plug 'tpope/vim-surround'
@@ -22,8 +24,6 @@ Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 "Plug 'mg979/vim-visual-multi', {'branch': 'master'} " multicursor
 
 " Others
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
@@ -33,6 +33,7 @@ Plug 'SirVer/ultisnips' "UltiSnipsEdit -> for customs
 Plug 'honza/vim-snippets'
 
 " JS
+Plug 'maxmellon/vim-jsx-pretty'
 "Plug 'mxw/vim-jsx' "React
 "Plug 'othree/yajs.vim' "causing color theme changes
 "Plug 'beautify-web/js-beautify'
@@ -44,7 +45,6 @@ Plug 'peitalin/vim-jsx-typescript'
 
 " MD
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
-Plug 'maxmellon/vim-jsx-pretty'
 
 " LaTeX
 "Plug 'lervag/vimtex'

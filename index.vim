@@ -66,6 +66,7 @@ let g:coc_global_extensions = [
     \ 'coc-java-debug',
     \ 'coc-yaml',
     \ 'coc-html',
+    \ '@yaegassy/coc-tailwindcss3',
     \ ]
     "\ 'coc-phpls',
     "\ 'coc-eslint',
