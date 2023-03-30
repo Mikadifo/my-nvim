@@ -54,6 +54,7 @@ let g:echodoc_enable_at_startup = 1
 let g:coc_snippet_next = '<tab>'
 "let g:coc_snippet_prev = '<S-tab>'
 let g:coc_global_extensions = [
+    \ 'coc-marketplace',
     \ 'coc-snippets',
     \ 'coc-pairs',
     \ 'coc-vimtex',
@@ -68,8 +69,8 @@ let g:coc_global_extensions = [
     \ 'coc-html',
     \ '@yaegassy/coc-tailwindcss3',
     \ ]
-    "\ 'coc-phpls',
     "\ 'coc-eslint',
+    "\ 'coc-phpls',
 
 let g:tex_flavor = 'latex'
 "let g:vimtex_compiler_latexmk = {'continuous': 0}
