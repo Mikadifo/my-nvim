@@ -171,19 +171,19 @@ Plug 'jparise/vim-graphql'
 
 > **Notes:** This plugin also supports graphql in js files. See official repository for more information.
 
-### Python 3
+<!--### Python 3 (Not it use, not working either)-->
 
-:computer: **Repository:** https://github.com/jmcantrell/vim-virtualenv
+<!--:computer: **Repository:** https://github.com/jmcantrell/vim-virtualenv-->
 
-:information_source: **About:** This plugin helps to manage python virtual envs.
+<!--:information_source: **About:** This plugin helps to manage python virtual envs.-->
 
-:wrench: **Configuration** Just paste the following codes in the .vimrc. If using this project, paste on [plugins.vim](./plugins.vim).
+<!--:wrench: **Configuration** Just paste the following codes in the .vimrc. If using this project, paste on [plugins.vim](./plugins.vim).-->
 
-```
-"Plug 'jmcantrell/vim-virtualenv'
-```
+<!--```-->
+<!--"Plug 'jmcantrell/vim-virtualenv'-->
+<!--```-->
 
-> **Notes:** See official repository for more information.
+<!--> **Notes:** See official repository for more information.-->
 
 ### Haskell
 
