@@ -87,3 +87,6 @@ let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
 
 let NERDTreeQuitOnOpen=1
 let NERDTreeShowHidden = 1
+
+"Svelte
+"let g:svelte_preprocessors = ['typescript']

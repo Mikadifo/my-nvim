@@ -239,6 +239,20 @@ let g:coc_global_extensions = [
 
 > **Notes:** Make sure to include the coc extension for this plugin. See official repository for more information.
 
+### Svelte
+
+:computer: **Repository:** https://github.com/evanleck/vim-svelte
+
+:information_source: **About:** This is a plugin that enables syntax highliting for svelte files.
+
+:wrench: **Configuration** Just paste the following codes in the .vimrc. If using this project, paste on [plugins.vim](./plugins.vim).
+
+```
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
+```
+
+> **Notes:** See official repository for more information.
+
 ## IDE plugins
 
 ### Vim Surround
