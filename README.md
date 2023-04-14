@@ -115,6 +115,20 @@ let g:coc_global_extensions = [
 
 > **Notes:** Make sure to include the coc extension for this plugin.
 
+### HTML
+
+:computer: **Repository:** https://github.com/othree/html5.vim
+
+:information_source: **About:** This is a syntax plugin for html5.
+
+:wrench: **Configuration** Just paste the following codes in the .vimrc. If using this project, paste on [plugins.vim](./plugins.vim).
+
+```
+Plug 'othree/html5.vim'
+```
+
+> **Notes:** See official repository for more information.
+
 ### XML
 
 :computer: **Repository:** https://github.com/othree/xml.vim
