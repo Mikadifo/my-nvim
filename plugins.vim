@@ -8,26 +8,27 @@ Plug 'vim-airline/vim-airline-themes'
 " IDE
 Plug 'tpope/vim-surround'
 Plug 'ryanoasis/vim-devicons'
-Plug 'ap/vim-css-color'
 Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdtree'
+Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'Yggdroot/indentLine'
 Plug 'Shougo/echodoc.vim' " Muestra la firma de la funcion
 Plug 'tpope/vim-fugitive' " Provee comandos de git
 Plug 'airblade/vim-gitgutter' " Muestra cambios hechos en el archivo en la columna de signos
-Plug 'xuyuanp/nerdtree-git-plugin' " Muestra el estado de los archivos en Nerdtree
 Plug 'preservim/nerdcommenter'
-Plug 'yegappan/taglist' " Provides an overview of the structure of source code files
+"Plug 'yegappan/taglist' " Provides an overview of the structure of source code files
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 "Plug 'frazrepo/vim-rainbow' " Rainbow Brackets <3
 "Plug 'mg979/vim-visual-multi', {'branch': 'master'} " multicursor
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
 
 " Others
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
 Plug 'othree/xml.vim'
+Plug 'othree/html5.vim'
 Plug 'mhinz/vim-startify'
 Plug 'SirVer/ultisnips' "UltiSnipsEdit -> for customs
 Plug 'honza/vim-snippets'
@@ -45,6 +46,9 @@ Plug 'peitalin/vim-jsx-typescript'
 
 " MD
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
+" CSS
+Plug 'ap/vim-css-color'
 
 " LaTeX
 "Plug 'lervag/vimtex'

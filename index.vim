@@ -13,6 +13,9 @@ colorscheme gruvbox
 " IndentLine CONFIG
 "let g:indentLine_setColors = 0
 let g:indentLine_char_list = ['|', '¬¶', '‚îÜ', '‚îä']
+" No mostrar en ciertos tipos de buffers y archivos
+let g:indentLine_fileTypeExclude = ['text', 'sh', 'help', 'terminal']
+let g:indentLine_bufNameExclude = ['NERD_tree.', 'term:.']
 
 " MARKDOWN PREVIEW CONFIG
 let g:mkdp_auto_start = 1
@@ -38,10 +41,6 @@ let g:airline#extensions#tabline#fnamemod = ':t'  " Mostrar simbolo el nombre de
 let g:airline_powerline_fonts = 0
 let g:airline_theme='bubblegum'
 "let g:airline_theme='gruvbox'
-
-" No mostrar en ciertos tipos de buffers y archivos
-let g:indentLine_fileTypeExclude = ['text', 'sh', 'help', 'terminal']
-let g:indentLine_bufNameExclude = ['NERD_tree.', 'term:.']
 
 " Invertir direccion de navegacion (de arriba a abajo)
 let g:SuperTabDefaultCompletionType = '<c-n>'
@@ -88,3 +87,6 @@ let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
 
 let NERDTreeQuitOnOpen=1
 let NERDTreeShowHidden = 1
+
+"Svelte
+"let g:svelte_preprocessors = ['typescript']
