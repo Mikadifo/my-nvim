@@ -199,6 +199,14 @@ Plug 'jparise/vim-graphql'
 
 <!--> **Notes:** See official repository for more information.-->
 
+:wrench: **Configuration** Just paste the following codes in the .vimrc. If using this project, paste on [plugins.vim](./plugins.vim).
+
+```
+"Plug 'jmcantrell/vim-virtualenv'
+```
+
+> **Notes:** See official repository for more information.
+
 ### Haskell
 
 :computer: **Repository:** https://github.com/neovimhaskell/haskell-vim
