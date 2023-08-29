@@ -59,15 +59,15 @@ let g:coc_global_extensions = [
     \ 'coc-vimtex',
     \ 'coc-tsserver',
     \ 'coc-json',
-    \ 'coc-python',
     \ 'coc-java',
-    \ 'coc-go',
+    \ 'coc-pyright',
     \ 'coc-prettier',
     \ 'coc-java-debug',
     \ 'coc-yaml',
     \ 'coc-html',
     \ '@yaegassy/coc-tailwindcss3',
     \ ]
+    "\ 'coc-go',
     "\ 'coc-eslint',
     "\ 'coc-phpls',
 
