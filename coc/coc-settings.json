@@ -4,6 +4,8 @@
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
   "suggest.noselect": false,
   "coc.preferences.formatOnSave": true,
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "/Users/mikadifo/Library/Python/3.11/bin/black",
   "languageserver": {
     "haskell": {
       "command": "haskell-language-server-wrapper",
