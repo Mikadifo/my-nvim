@@ -65,6 +65,7 @@ let g:coc_global_extensions = [
     \ 'coc-java-debug',
     \ 'coc-yaml',
     \ 'coc-html',
+    \ 'coc-clangd',
     \ '@yaegassy/coc-tailwindcss3',
     \ ]
     "\ 'coc-go',
