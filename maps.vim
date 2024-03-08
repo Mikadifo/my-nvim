@@ -64,7 +64,7 @@ nmap <Leader>lh :VimtexTocOpen<CR>
 nmap <Leader>mt <Plug>MarkdownPreviewToggle
 
 " JAVA ANT
-nmap <Leader>rr :!ant -find %:p:h/build.xml run<CR>
+"nmap <Leader>rr :!ant -find %:p:h/build.xml run<CR>
 
 " JAVA
 "autocmd BufRead *.java set efm=%A\ %#[javac]\ %f:%l:\ %m,%-Z\ %#[javac]\ %p^,%-C%.%#
