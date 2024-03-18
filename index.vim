@@ -67,6 +67,7 @@ let g:coc_global_extensions = [
     \ 'coc-html',
     \ 'coc-clangd',
     \ '@yaegassy/coc-tailwindcss3',
+    \ '@yaegassy/coc-astro',
     \ ]
     "\ 'coc-go',
     "\ 'coc-eslint',
