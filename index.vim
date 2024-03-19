@@ -66,6 +66,7 @@ let g:coc_global_extensions = [
     \ 'coc-yaml',
     \ 'coc-html',
     \ 'coc-clangd',
+    \ 'coc-docker',
     \ '@yaegassy/coc-tailwindcss3',
     \ '@yaegassy/coc-astro',
     \ ]
