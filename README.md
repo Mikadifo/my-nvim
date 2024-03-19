@@ -190,7 +190,6 @@ Plug 'jparise/vim-graphql'
 <!--:computer: **Repository:** https://github.com/jmcantrell/vim-virtualenv-->
 
 <!--:information_source: **About:** This plugin helps to manage python virtual envs.-->
-<<<<<<< HEAD
 
 <!--:wrench: **Configuration** Just paste the following codes in the .vimrc. If using this project, paste on [plugins.vim](./plugins.vim).-->
 
@@ -199,8 +198,6 @@ Plug 'jparise/vim-graphql'
 <!--```-->
 
 <!--> **Notes:** See official repository for more information.-->
-=======
->>>>>>> 7ab30b7 ([mod] updated readme)
 
 <!--:wrench: **Configuration** Just paste the following codes in the .vimrc. If using this project, paste on [plugins.vim](./plugins.vim).-->
 
