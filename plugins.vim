@@ -44,6 +44,9 @@ Plug 'maxmellon/vim-jsx-pretty'
 "Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 
+" Astro
+Plug 'wuelnerdotexe/vim-astro'
+
 " MD
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 

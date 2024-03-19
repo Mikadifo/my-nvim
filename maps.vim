@@ -14,7 +14,7 @@ command -nargs=1 MavenQuickstart :!mvn archetype:generate -DgroupId=com.mikadifo
 "nmap <Leader>gg mawv/ <CR>"ty/ <CR>wvwh"ny/getters<CR>$a<CR><CR><Esc>xxapublic <Esc>"tpa<Esc>"npbiget<Esc>l~ea()<CR>{<CR><Tab>return <Esc>"npa;<CR>}<Esc>=<CR><Esc>/setters<CR>$a<CR><CR><Esc>xxapublic void<Esc>"npbiset<Esc>l~ea(<Esc>"tpa <Esc>"npa)<CR>{<CR><Tab>this.<Esc>"npa=<Esc>"npa;<CR>}<Esc>=<CR>`ak NOT WORKING CORRECTLY and requeirs getters and setters comment
 
 nnoremap <Esc> <Esc> <Esc>
-nmap f <Plug>(easymotion-s2)
+nmap ss <Plug>(easymotion-s2)
 
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
@@ -64,7 +64,7 @@ nmap <Leader>lh :VimtexTocOpen<CR>
 nmap <Leader>mt <Plug>MarkdownPreviewToggle
 
 " JAVA ANT
-nmap <Leader>rr :!ant -find %:p:h/build.xml run<CR>
+"nmap <Leader>rr :!ant -find %:p:h/build.xml run<CR>
 
 " JAVA
 "autocmd BufRead *.java set efm=%A\ %#[javac]\ %f:%l:\ %m,%-Z\ %#[javac]\ %p^,%-C%.%#
