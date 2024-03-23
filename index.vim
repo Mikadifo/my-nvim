@@ -67,10 +67,10 @@ let g:coc_global_extensions = [
     \ 'coc-html',
     \ 'coc-clangd',
     \ 'coc-docker',
+    \ 'coc-go',
     \ '@yaegassy/coc-tailwindcss3',
     \ '@yaegassy/coc-astro',
     \ ]
-    "\ 'coc-go',
     "\ 'coc-eslint',
     "\ 'coc-phpls',
 
