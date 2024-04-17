@@ -33,7 +33,7 @@ nmap <Leader>nn :NERDTree<CR>
 nmap <Leader>tt :TagbarToggle<CR>
 
 nmap <Leader>vv :vsplit<CR>
-nmap <Leader>vh :split<CR>
+nmap <Leader>vs :split<CR>
 nmap <Leader>oo :on<CR>
 
 nmap <Leader>hh :wincmd h<CR>
