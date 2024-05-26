@@ -93,3 +93,6 @@ let NERDTreeShowHidden = 1
 
 "Svelte
 "let g:svelte_preprocessors = ['typescript']
+
+"Haskell
+let g:haskell_indent_disable=1

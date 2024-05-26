@@ -71,4 +71,7 @@ Plug 'jparise/vim-graphql'
 
 " Haskell
 Plug 'neovimhaskell/haskell-vim'
+
+" Arduino
+Plug 'sudar/vim-arduino-syntax'
 call plug#end()
