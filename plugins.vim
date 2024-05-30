@@ -54,7 +54,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'ap/vim-css-color'
 
 " LaTeX
-"Plug 'lervag/vimtex'
+Plug 'lervag/vimtex'
 
 " GraphQL, supports in js and ts files as well
 Plug 'jparise/vim-graphql'
