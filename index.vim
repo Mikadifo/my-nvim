@@ -75,7 +75,8 @@ let g:coc_global_extensions = [
     "\ 'coc-phpls',
 
 let g:tex_flavor = 'latex'
-"let g:vimtex_compiler_latexmk = {'continuous': 0}
+let g:livepreview_previewer = 'C:\Program Files\Adobe\Acrobat DC\Acrobat.exe'
+"let g:vimtex_compiler_latexmk = {'continuous': 1}
 "let g:vimtex_latexmk_options = '-pdf -shell-escape -verbose -file-line-error -synctex=1 -interaction=nonstopmode'
 
 let g:UltiSnipsSnippetDirectories = ['UltiSnips']
