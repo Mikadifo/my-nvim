@@ -112,3 +112,6 @@ augroup SyntaxSettings
   autocmd!
   autocmd BufNewFile,BufRead *.tsx set filetype=typescriptreact
 augroup END
+
+" Copilot
+imap  <silent><script><expr> <C-Space> copilot#Accept("\<CR>")
