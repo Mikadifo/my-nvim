@@ -76,6 +76,6 @@ Plug 'neovimhaskell/haskell-vim'
 Plug 'sudar/vim-arduino-syntax'
 
 " Github Copilot
-Plug 'github/copilot.vim'
+"Plug 'github/copilot.vim'
 
 call plug#end()

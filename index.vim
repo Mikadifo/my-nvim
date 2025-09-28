@@ -99,7 +99,7 @@ let NERDTreeShowHidden = 1
 let g:haskell_indent_disable=1
 
 "Copilot
-let g:copilot_no_tab_map = v:true
+"let g:copilot_no_tab_map = v:true
 
 " Python3
 let g:python3_host_prog = '/usr/bin/python3'
