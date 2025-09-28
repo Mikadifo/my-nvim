@@ -241,25 +241,35 @@ let g:coc_global_extensions = [
 
 > **Notes:** Make sure to include the coc extension for this plugin. See official repository for more information.
 
-### Javascript
+### GoLang
 
-:computer: **Repository:** https://github.com/maxmellon/vim-jsx-pretty
+:computer: **Repository:** https://github.com/josa42/coc-go
 
-:information_source: **About:** This is a syntax plugin for javascript, including jsx files.
+:information_source: **About:** This is a syntax highliting plugin for GoLang.
 
-:wrench: **Configuration** Just paste the following codes in the .vimrc. If using this project, paste on [plugins.vim](./plugins.vim) and [index.vim](./index.vim) respectively.
-
-```
-Plug 'maxmellon/vim-jsx-pretty'
-```
+:wrench: **Configuration** Paste it on the coc config array in [index.vim](./index.vim), or anywhere that you have this coc config block.
 
 ```
 let g:coc_global_extensions = [
-    \ 'coc-tsserver',
+    \ 'coc-go',
     \ ]
 ```
 
 > **Notes:** Make sure to include the coc extension for this plugin. See official repository for more information.
+
+### Arduino
+
+:computer: **Repository:** https://github.com/sudar/vim-arduino-syntax
+
+:information_source: **About:** This is a syntax highliting plugin for Arduino.
+
+:wrench: **Configuration** Just paste the following codes in the .vimrc. If using this project, paste on [plugins.vim](./plugins.vim).
+
+```
+Plug 'sudar/vim-arduino-syntax'
+```
+
+> **Notes:** See official repository for more information.
 
 ### Svelte
 
