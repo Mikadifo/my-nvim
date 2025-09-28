@@ -67,15 +67,16 @@ let g:coc_global_extensions = [
     \ 'coc-html',
     \ 'coc-clangd',
     \ 'coc-docker',
+    \ 'coc-go',
     \ '@yaegassy/coc-tailwindcss3',
     \ '@yaegassy/coc-astro',
     \ ]
-    "\ 'coc-go',
     "\ 'coc-eslint',
     "\ 'coc-phpls',
 
 let g:tex_flavor = 'latex'
-"let g:vimtex_compiler_latexmk = {'continuous': 0}
+let g:livepreview_previewer = 'C:\Program Files\Adobe\Acrobat DC\Acrobat.exe'
+"let g:vimtex_compiler_latexmk = {'continuous': 1}
 "let g:vimtex_latexmk_options = '-pdf -shell-escape -verbose -file-line-error -synctex=1 -interaction=nonstopmode'
 
 let g:UltiSnipsSnippetDirectories = ['UltiSnips']
@@ -93,3 +94,12 @@ let NERDTreeShowHidden = 1
 
 "Svelte
 "let g:svelte_preprocessors = ['typescript']
+
+"Haskell
+let g:haskell_indent_disable=1
+
+"Copilot
+"let g:copilot_no_tab_map = v:true
+
+" Python3
+let g:python3_host_prog = '/usr/bin/python3'

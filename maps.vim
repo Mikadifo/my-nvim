@@ -1,7 +1,9 @@
 let mapleader=" "
 
 autocmd FileType haskell setlocal expandtab
-autocmd FileType java setlocal ts=4 sw=4 expandtab
+autocmd FileType haskell autocmd BufWritePre <buffer> call CocAction('format')
+
+"autocmd FileType java setlocal ts=4 sw=4 expandtab
 
 "LATEX
 command CompileOpenPdfLatex :!cd %:p:h; pdflatex %:t; open %:t:r.pdf
@@ -33,7 +35,7 @@ nmap <Leader>nn :NERDTree<CR>
 nmap <Leader>tt :TagbarToggle<CR>
 
 nmap <Leader>vv :vsplit<CR>
-nmap <Leader>vh :split<CR>
+nmap <Leader>vs :split<CR>
 nmap <Leader>oo :on<CR>
 
 nmap <Leader>hh :wincmd h<CR>
@@ -73,13 +75,13 @@ nmap <Leader>mt <Plug>MarkdownPreviewToggle
 "autocmd FileType java setlocal omnifunc=javacomplete#Complete
 
 " JAVA MAVEN
-nmap <Leader>p :make<CR>
-nmap <Leader>r :!java -jar target/%:t:r.jar<CR>
-nmap <Leader>mq :MavenQuickstart<Space>
+"nmap <Leader>p :make<CR>
+"nmap <Leader>r :!java -jar target/%:t:r.jar<CR>
+"nmap <Leader>mq :MavenQuickstart<Space>
 
 " JAVA DEBUG
-nmap <Leader>d :CocCommand java.debug.vimspector.start<CR>
-nmap <Leader>db :call vimspector#ToggleBreakpoint()<CR>
+"nmap <Leader>d :CocCommand java.debug.vimspector.start<CR>
+"nmap <Leader>db :call vimspector#ToggleBreakpoint()<CR>
 
 " Tests
 " Run tests on nearest test to the cursor
@@ -110,3 +112,6 @@ augroup SyntaxSettings
   autocmd!
   autocmd BufNewFile,BufRead *.tsx set filetype=typescriptreact
 augroup END
+
+" Copilot
+imap  <silent><script><expr> <C-Space> copilot#Accept("\<CR>")
