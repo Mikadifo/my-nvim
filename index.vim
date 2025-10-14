@@ -5,6 +5,19 @@ source <sfile>:h/plugins.vim
 " Maps
 source <sfile>:h/maps.vim
 
+let g:clipboard = {
+	    \   'name': 'WslClipboard',
+	    \   'copy': {
+	    \      '+': 'clip.exe',
+	    \      '*': 'clip.exe',
+	    \    },
+	    \   'paste': {
+	    \      '+': 'powershell.exe -c [Console]::Out.Write($(Get-Clipboard -Raw).tostring().replace("`r", ""))',
+	    \      '*': 'powershell.exe -c [Console]::Out.Write($(Get-Clipboard -Raw).tostring().replace("`r", ""))',
+	    \   },
+	    \   'cache_enabled': 0,
+	    \ }
+
 " SCHEME THEME
 colorscheme gruvbox
 "let g:lightline = { 'colorscheme': 'palenight' }
