@@ -12,7 +12,7 @@ Plug 'mattn/emmet-vim'
 Plug 'othree/xml.vim'
 Plug 'othree/html5.vim'
 Plug 'mhinz/vim-startify'
-Plug 'SirVer/ultisnips' "UltiSnipsEdit -> for customs
+"Plug 'SirVer/ultisnips' "UltiSnipsEdit -> for customs
 Plug 'honza/vim-snippets'
 
 " IDE
