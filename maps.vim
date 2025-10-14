@@ -16,6 +16,8 @@ command -nargs=1 MavenQuickstart :!mvn archetype:generate -DgroupId=com.mikadifo
 "nmap <Leader>gg mawv/ <CR>"ty/ <CR>wvwh"ny/getters<CR>$a<CR><CR><Esc>xxapublic <Esc>"tpa<Esc>"npbiget<Esc>l~ea()<CR>{<CR><Tab>return <Esc>"npa;<CR>}<Esc>=<CR><Esc>/setters<CR>$a<CR><CR><Esc>xxapublic void<Esc>"npbiset<Esc>l~ea(<Esc>"tpa <Esc>"npa)<CR>{<CR><Tab>this.<Esc>"npa=<Esc>"npa;<CR>}<Esc>=<CR>`ak NOT WORKING CORRECTLY and requeirs getters and setters comment
 
 nnoremap <Esc> <Esc> <Esc>
+nnoremap <silent> K :call ShowDocumentation()<CR>
+
 nmap ss <Plug>(easymotion-s2)
 
 " GoTo code navigation.
@@ -49,6 +51,10 @@ nmap <Leader>q :q<CR>
 nmap <Leader>bn :bn<CR>
 nmap <Leader>bN :bp<CR>
 nmap <Leader>bd :bd<CR>
+
+" Formatting selected code
+xmap <Leader>f  <Plug>(coc-format-selected)
+nmap <Leader>f  <Plug>(coc-format-selected)
 
 "Coc hide when bugged screnn
 nmap <Leader>ch :call coc#util#float_hide()<CR>
@@ -95,17 +101,29 @@ nmap <Leader>tv :TestVisit<CR>
 
 nmap <Leader>al :AirlineRefresh<CR>:NERDTreeFind<CR>q
 
-"To suggestions that uses for default ck
-inoremap <silent><expr> <S-TAB> :make <C-k>
 inoremap <silent><expr> <TAB>
-      \ coc#pum#visible() ? coc#_select_confirm() :
-      \ coc#expandableOrJumpable() ? "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
-      \ CheckBackspace() ? "\<TAB>" :
+      \ coc#pum#visible() ? coc#pum#next(0) :
+      \ CheckBackspace() ? "\<Tab>" :
       \ coc#refresh()
+inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(0) : "\<C-h>"
 
+" Make <CR> to accept selected completion item or notify coc.nvim to format
+" <C-g>u breaks current undo, please make your own choice
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
+" Check for whitespace before cursor
 function! CheckBackspace() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+function! ShowDocumentation()
+  if CocAction('hasProvider', 'hover')
+    call CocActionAsync('doHover')
+  else
+    call feedkeys('K', 'in')
+  endif
 endfunction
 
 augroup SyntaxSettings

@@ -5,6 +5,16 @@ Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+" Others
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'mattn/emmet-vim'
+Plug 'othree/xml.vim'
+Plug 'othree/html5.vim'
+Plug 'mhinz/vim-startify'
+Plug 'SirVer/ultisnips' "UltiSnipsEdit -> for customs
+Plug 'honza/vim-snippets'
+
 " IDE
 Plug 'tpope/vim-surround'
 Plug 'ryanoasis/vim-devicons'
@@ -22,16 +32,6 @@ Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 "Plug 'frazrepo/vim-rainbow' " Rainbow Brackets <3
 "Plug 'mg979/vim-visual-multi', {'branch': 'master'} " multicursor
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
-
-" Others
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-Plug 'mattn/emmet-vim'
-Plug 'othree/xml.vim'
-Plug 'othree/html5.vim'
-Plug 'mhinz/vim-startify'
-Plug 'SirVer/ultisnips' "UltiSnipsEdit -> for customs
-Plug 'honza/vim-snippets'
 
 " JS
 Plug 'maxmellon/vim-jsx-pretty'

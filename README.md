@@ -37,8 +37,6 @@ This file has all the sets of the default neovim. You can configure this file as
 
 This file has custom key maps and keyboard shortcuts. Most of the shortcuts are to run a specific action of a plugin. You can add your own shortcuts here.
 
-> :warning: After opening making changes in any of these files, use `:so ~/.vimrc` to make those changes valid.
-
 # Plugins and their configuration
 
 This project has mostly plugins for javascript development, including React, check the [plugins](#pluginsvim) file to see the list in the file and what plugin manager the project uses.

@@ -23,7 +23,7 @@ set shortmess+=c
 " JAVA
 set errorformat=%A%f:%l:\ %m,%-Z%p^,%-C%.%#
 "set makeprg=ant\ -find\ %:p:h/build.xml
-set makeprg=mvn\ clean\ package
+"set makeprg=mvn\ clean\ package
 
 " COC
 " TextEdit might fail if hidden is not set.

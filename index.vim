@@ -80,9 +80,9 @@ let g:livepreview_previewer = 'C:\Program Files\Adobe\Acrobat DC\Acrobat.exe'
 "let g:vimtex_latexmk_options = '-pdf -shell-escape -verbose -file-line-error -synctex=1 -interaction=nonstopmode'
 
 let g:UltiSnipsSnippetDirectories = ['UltiSnips']
-let g:UltiSnipsExpandTrigger = '<tab>'
-let g:UltiSnipsJumpForwardTrigger = '<C-j>'
-let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
+let g:UltiSnipsExpandTrigger = ''
+let g:UltiSnipsJumpForwardTrigger = ''
+let g:UltiSnipsJumpBackwardTrigger = ''
 
 "let g:oceanic_next_terminal_bold = 1
 "let g:oceanic_next_terminal_italic = 1
