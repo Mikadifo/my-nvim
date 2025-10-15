@@ -42,7 +42,7 @@ let g:mkdp_preview_options = {
     \ 'disable_filename': 1
     \ }
 
-let g:mkdp_page_title = '${name}'
+let g:mkdp_page_title = '「${name}」'
 let g:mkdp_filetypes = ['markdown']
 "MARKDOWN PREVIEW CONFIG END
 
