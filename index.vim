@@ -60,15 +60,11 @@ let g:SuperTabDefaultCompletionType = '<c-n>'
 
 let g:echodoc_enable_at_startup = 1
 
-"let g:rainbow_active = 1 " Global files
-"let g:rainbow_guifgs = ['magenta', 'DarkOrchid3'] "solo morado
-
 let g:coc_snippet_next = '<tab>'
 "let g:coc_snippet_prev = '<S-tab>'
 let g:coc_global_extensions = [
     \ 'coc-marketplace',
     \ 'coc-snippets',
-    \ 'coc-pairs',
     \ 'coc-vimtex',
     \ 'coc-tsserver',
     \ 'coc-json',
@@ -84,6 +80,7 @@ let g:coc_global_extensions = [
     \ '@yaegassy/coc-tailwindcss3',
     \ '@yaegassy/coc-astro',
     \ ]
+    "\ 'coc-pairs',
     "\ 'coc-eslint',
     "\ 'coc-phpls',
 

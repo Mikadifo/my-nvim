@@ -11,7 +11,7 @@ command CompileOpenPdfLatex :!cd %:p:h; pdflatex %:t; open %:t:r.pdf
 
 "JAVA
 "Genera un nuevo proyecto de maven con el conmbre dado el el directorio actual
-command -nargs=1 MavenQuickstart :!mvn archetype:generate -DgroupId=com.mikadifo -DartifactId=<args> -DarchetypeArtifactI=maven-archetype-quickstart -DinteractiveMode=false
+"command -nargs=1 MavenQuickstart :!mvn archetype:generate -DgroupId=com.mikadifo -DartifactId=<args> -DarchetypeArtifactI=maven-archetype-quickstart -DinteractiveMode=false
 " Se hay una forma de abrir buffer usar ; cd\ <args>; pwd al final
 "nmap <Leader>gg mawv/ <CR>"ty/ <CR>wvwh"ny/getters<CR>$a<CR><CR><Esc>xxapublic <Esc>"tpa<Esc>"npbiget<Esc>l~ea()<CR>{<CR><Tab>return <Esc>"npa;<CR>}<Esc>=<CR><Esc>/setters<CR>$a<CR><CR><Esc>xxapublic void<Esc>"npbiset<Esc>l~ea(<Esc>"tpa <Esc>"npa)<CR>{<CR><Tab>this.<Esc>"npa=<Esc>"npa;<CR>}<Esc>=<CR>`ak NOT WORKING CORRECTLY and requeirs getters and setters comment
 

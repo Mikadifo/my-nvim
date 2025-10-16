@@ -29,7 +29,6 @@ Plug 'airblade/vim-gitgutter' " Muestra cambios hechos en el archivo en la colum
 Plug 'preservim/nerdcommenter'
 "Plug 'yegappan/taglist' " Provides an overview of the structure of source code files
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
-"Plug 'frazrepo/vim-rainbow' " Rainbow Brackets <3
 "Plug 'mg979/vim-visual-multi', {'branch': 'master'} " multicursor
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
 
