@@ -8,6 +8,21 @@ dofile(config_dir .. "/plugins.lua")
 -- Maps
 dofile(config_dir .. "/maps.lua")
 
+-- Clipboard provider yank only
+local clip = "/mnt/c/Windows/System32/clip.exe"
+
+if vim.fn.executable(clip) == 1 then
+	vim.api.nvim_create_augroup("WSLYank", { clear = true })
+	vim.api.nvim_create_autocmd("TextYankPost", {
+		group = "WSLYank",
+		callback = function()
+			if vim.v.event.operator == 'y' then
+				vim.fn.system('cat | ' .. clip, vim.fn.getreg('"'))
+			end
+		end
+	})
+end
+
 -- SCHEME THEME
 vim.cmd("colorscheme gruvbox")
 --vim.g.lightline = { 'colorscheme': 'palenight' }
