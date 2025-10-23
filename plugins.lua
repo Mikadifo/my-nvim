@@ -2,9 +2,8 @@ vim.cmd [[
 	call plug#begin('~/.vim/plugged')
 
 	" Themes
-	" Plug 'morhetz/gruvbox'
-	" Plug 'rose-pine/neovim'
-	Plug 'navarasu/onedark.nvim'
+	Plug 'morhetz/gruvbox'
+	" Plug 'navarasu/onedark.nvim'
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
 

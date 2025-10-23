@@ -49,18 +49,18 @@ Make sure you habe vim-plug installed and if you are only using .vimrc that you 
 
 ### Rose-Pine theme
 
-:computer: **Repository:** https://github.com/rose-pine/neovim
+:computer: **Repository:** https://github.com/morhetz/gruvbox
 
-:information_source: **About:** This plugin sets the most vim classic theme, the popular rose-pine.
+:information_source: **About:** This plugin sets the most vim classic theme, the popular gruvbox.
 
 :wrench: **Configuration** Just paste the following codes in the .vimrc. If using this project, paste on [plugins.vim](./plugins.vim) and [index.vim](./index.vim) respectively.
 
 ```
-Plug 'rose-pine/neovim'
+Plug morhetz/gruvbox'
 ```
 
 ```
-colorscheme rose-pine
+colorscheme gruvbox
 ```
 
 > **Notes:** If you're using airline plugin, check the info below.
@@ -71,7 +71,7 @@ colorscheme rose-pine
 
 :computer: **Repository 2:** https://github.com/vim-airline/vim-airline-themes
 
-:information_source: **About:** This plugins make the bottom tab in vim, a lot cooler, you can even use the rose-pine theme mentioned above.
+:information_source: **About:** This plugins make the bottom tab in vim, a lot cooler, you can even use the gruvbox theme mentioned above.
 
 :wrench: **Configuration** Just paste the following codes in the .vimrc. If using this project, paste on [plugins.vim](./plugins.vim) and [index.vim](./index.vim) respectively.
 
@@ -85,7 +85,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 " This loads Powerline font and symbols
 let g:airline_powerline_fonts = 0
-let g:airline_theme='rose-pine' " Here you can use gruvbox
+let g:airline_theme='gruvbox'
 ```
 
 > **Notes:** Check the official repositories for more information about this configuration.

@@ -24,13 +24,7 @@ if vim.fn.executable(clip) == 1 then
 end
 
 -- SCHEME THEME
---vim.cmd("colorscheme gruvbox")
-require('onedark').setup {
-	style = 'warmer'
-}
-require('onedark').load()
---vim.g.lightline = { 'colorscheme': 'palenight' }
---vim.g.palenight_terminal_italics=1
+vim.cmd("colorscheme gruvbox")
 
 -- IndentLine CONFIG
 --vim.g.indentLine_setColors = 0
@@ -60,8 +54,7 @@ vim.g.user_emmet_leader_key = ','
 vim.g["airline#extensions#tabline#enabled"] = 1
 vim.g["airline#extensions#tabline#fnamemod"] = ":t"
 vim.g.airline_powerline_fonts = 0
-vim.g.airline_theme = "rose-pine"
---vim.g.airline_theme='gruvbox'
+vim.g.airline_theme = 'gruvbox'
 
 -- Invertir direccion de navegacion (de arriba a abajo)
 vim.g.SuperTabDefaultCompletionType = '<c-n>'
