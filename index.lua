@@ -25,7 +25,10 @@ end
 
 -- SCHEME THEME
 --vim.cmd("colorscheme gruvbox")
-vim.cmd("colorscheme rose-pine")
+require('onedark').setup {
+	style = 'warmer'
+}
+require('onedark').load()
 --vim.g.lightline = { 'colorscheme': 'palenight' }
 --vim.g.palenight_terminal_italics=1
 

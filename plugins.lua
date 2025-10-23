@@ -3,7 +3,8 @@ vim.cmd [[
 
 	" Themes
 	" Plug 'morhetz/gruvbox'
-	Plug 'rose-pine/neovim'
+	" Plug 'rose-pine/neovim'
+	Plug 'navarasu/onedark.nvim'
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
 
