@@ -56,7 +56,10 @@ end, {})
 --command -nargs=1 MavenQuickstart :!mvn archetype:generate -DgroupId=com.mikadifo -DartifactId=<args> -DarchetypeArtifactI=maven-archetype-quickstart -DinteractiveMode=false
 -- Se hay una forma de abrir buffer usar ; cd\ <args>; pwd al final
 
-vim.keymap.del("n", "gcc")
+pcall(vim.keymap.del, "n", "gcc")
+
+keyset("v", "J", ":m '>+1<CR>gv=gv", {})
+keyset("v", "K", ":m '<-2<CR>gv=gv", {})
 
 keyset("n", "K", '<CMD>lua _G.show_docs()<CR>', { silent = true })
 keyset("n", "ss", "<Plug>(easymotion-s2)", {})
