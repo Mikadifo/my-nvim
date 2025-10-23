@@ -16,6 +16,7 @@ vim.cmd [[
 	Plug 'mhinz/vim-startify'
 	"Plug 'SirVer/ultisnips' "UltiSnipsEdit -> for customs
 	Plug 'honza/vim-snippets'
+	Plug 'mbbill/undotree'
 
 	" IDE
 	Plug 'tpope/vim-surround'
@@ -26,7 +27,7 @@ vim.cmd [[
 	Plug 'christoomey/vim-tmux-navigator'
 	Plug 'Yggdroot/indentLine'
 	Plug 'Shougo/echodoc.vim' " Muestra la firma de la funcion
-	Plug 'tpope/vim-fugitive' " Provee comandos de git
+	Plug 'tpope/vim-fugitive' " Git commands
 	Plug 'airblade/vim-gitgutter' " Muestra cambios hechos en el archivo en la columna de signos
 	Plug 'preservim/nerdcommenter'
 	"Plug 'yegappan/taglist' " Provides an overview of the structure of source code files

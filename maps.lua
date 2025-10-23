@@ -93,6 +93,8 @@ keyset("n", "<leader>bn", ":bn<CR>", {})
 keyset("n", "<leader>bN", ":bp<CR>", {})
 keyset("n", "<leader>bd", ":bd<CR>", {})
 
+keyset("n", "<leader>u", vim.cmd.UndotreeToggle, {})
+
 -- Formatting selected code
 keyset("n", "<leader>f", "<Plug>(coc-format-selected)", {})
 
