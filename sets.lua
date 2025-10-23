@@ -1,38 +1,38 @@
-local opt = vim.opt
+local set = vim.opt
 
-opt.number = true
-opt.mouse = "a"
-opt.numberwidth = 1
+set.number = true
+set.mouse = "a"
+set.numberwidth = 1
 --opt.nohlsearch=true
-opt.clipboard:append("unnamedplus")
-opt.showcmd = true
-opt.ruler = true
-opt.encoding = "utf-8"
-opt.showmatch = true
-opt.colorcolumn = "80"
-opt.signcolumn = "yes"
-opt.sw = 4
-opt.scrolloff = 8
-opt.relativenumber = true
-opt.laststatus = 2
-opt.showmode = false
-opt.path = "**"
-opt.updatetime = 300
-opt.cmdheight = 2
-opt.shortmess:append("c")
+set.clipboard:append("unnamedplus")
+set.showcmd = true
+set.ruler = true
+set.encoding = "utf-8"
+set.showmatch = true
+set.colorcolumn = "80"
+set.signcolumn = "yes"
+set.sw = 4
+set.scrolloff = 8
+set.relativenumber = true
+set.laststatus = 2
+set.showmode = false
+set.path = "**"
+set.updatetime = 300
+set.cmdheight = 2
+set.shortmess:append("c")
 -- opt.foldmethod=indent
 -- opt.foldlevel=0
 -- JAVA
-opt.errorformat = { "%A%f:%l:\\ %m", "%-Z%p^,%-C%.%#" }
+set.errorformat = { "%A%f:%l:\\ %m", "%-Z%p^,%-C%.%#" }
 --opt.makeprg=ant\ -find\ %:p:h/build.xml
 --opt.makeprg=mvn\ clean\ package
 
 -- COC
 -- TextEdit might fail if hidden is not set.
-opt.hidden = true
+set.hidden = true
 -- Some servers have issues with backup files, see #649.
-opt.backup = false
-opt.writebackup = false
+set.backup = false
+set.writebackup = false
 
 --Themes
 if vim.fn.has("nvim") == 1 then
@@ -40,5 +40,5 @@ if vim.fn.has("nvim") == 1 then
 end
 
 if vim.fn.has("termguicolors") == 1 then
-	opt.termguicolors = true
+	set.termguicolors = true
 end

@@ -58,7 +58,12 @@ end, {})
 
 pcall(vim.keymap.del, "n", "gcc")
 
+keyset("n", "<C-d>", "<C-d>zz", {})
+keyset("n", "<C-u>", "<C-u>zz", {})
+
 keyset("v", "J", ":m '>+1<CR>gv=gv", {})
+keyset("x", "<leader>p", "<C-u>zz", {})
+
 keyset("v", "K", ":m '<-2<CR>gv=gv", {})
 
 keyset("n", "K", '<CMD>lua _G.show_docs()<CR>', { silent = true })
