@@ -96,8 +96,7 @@ keyset("n", "<leader>bd", ":bd<CR>", {})
 keyset("n", "<leader>u", vim.cmd.UndotreeToggle, {})
 
 -- Formatting selected code
-keyset("n", "<leader>f", "<Plug>(coc-format-selected)", {})
-
+keyset("v", "<leader>f", "<Plug>(coc-format-selected)", {})
 --Coc hide when bugged screnn
 keyset("n", "<leader>ch", ":call coc#util#float_hide()<CR>", {})
 --nmap <silent>gd <Plug>(coc-definition)
