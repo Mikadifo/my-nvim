@@ -24,7 +24,8 @@ if vim.fn.executable(clip) == 1 then
 end
 
 -- SCHEME THEME
-vim.cmd("colorscheme gruvbox")
+--vim.cmd("colorscheme gruvbox")
+vim.cmd("colorscheme rose-pine")
 --vim.g.lightline = { 'colorscheme': 'palenight' }
 --vim.g.palenight_terminal_italics=1
 
@@ -56,7 +57,7 @@ vim.g.user_emmet_leader_key = ','
 vim.g["airline#extensions#tabline#enabled"] = 1
 vim.g["airline#extensions#tabline#fnamemod"] = ":t"
 vim.g.airline_powerline_fonts = 0
-vim.g.airline_theme = "bubblegum"
+vim.g.airline_theme = "rose-pine"
 --vim.g.airline_theme='gruvbox'
 
 -- Invertir direccion de navegacion (de arriba a abajo)
