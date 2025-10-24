@@ -37,8 +37,6 @@ This file has all the sets of the default neovim. You can configure this file as
 
 This file has custom key maps and keyboard shortcuts. Most of the shortcuts are to run a specific action of a plugin. You can add your own shortcuts here.
 
-> :warning: After opening making changes in any of these files, use `:so ~/.vimrc` to make those changes valid.
-
 # Plugins and their configuration
 
 This project has mostly plugins for javascript development, including React, check the [plugins](#pluginsvim) file to see the list in the file and what plugin manager the project uses.
@@ -49,7 +47,7 @@ Make sure you habe vim-plug installed and if you are only using .vimrc that you 
 
 ## Theming Plugin/s
 
-### Gruvbox theme
+### Rose-Pine theme
 
 :computer: **Repository:** https://github.com/morhetz/gruvbox
 
@@ -58,7 +56,7 @@ Make sure you habe vim-plug installed and if you are only using .vimrc that you 
 :wrench: **Configuration** Just paste the following codes in the .vimrc. If using this project, paste on [plugins.vim](./plugins.vim) and [index.vim](./index.vim) respectively.
 
 ```
-Plug 'morhetz/gruvbox'
+Plug morhetz/gruvbox'
 ```
 
 ```
@@ -87,7 +85,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 " This loads Powerline font and symbols
 let g:airline_powerline_fonts = 0
-let g:airline_theme='bubblegum' " Here you can use gruvbox
+let g:airline_theme='gruvbox'
 ```
 
 > **Notes:** Check the official repositories for more information about this configuration.
