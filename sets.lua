@@ -1,5 +1,6 @@
 local set = vim.opt
 
+set.wrap = false
 set.number = true
 set.mouse = "a"
 set.numberwidth = 1
