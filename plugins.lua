@@ -80,5 +80,7 @@ vim.cmd [[
 	" Github Copilot
 	"Plug 'github/copilot.vim'
 
+	Plug 'prisma/vim-prisma'
+
 	call plug#end()
 ]]

@@ -78,6 +78,7 @@ vim.g.coc_global_extensions = {
 	"coc-clangd",
 	"coc-docker",
 	"coc-go",
+	"coc-prisma",
 	"coc-sumneko-lua",
 	"@yaegassy/coc-tailwindcss3",
 	"@yaegassy/coc-astro",
