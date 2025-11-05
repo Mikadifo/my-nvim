@@ -1,11 +1,11 @@
 {
-  "java.jdt.ls.java.home": "//Library//Java//JavaVirtualMachines//adoptopenjdk-8.jdk//Contents//Home",
+  "prisma.prismaFmtBinPath": "./node_modules/.bin/prisma",
+  "prisma.languageServerPath": "~/.config/coc/extensions/node_modules/coc-prisma/node_modules/.bin/prisma-language-server",
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/17.0.3/clangd_17.0.3/bin/clangd",
   "tailwindCSS.emmetCompletions": true,
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
-  "suggest.noselect": false,
   "coc.preferences.formatOnSave": true,
-  "python.formatting.provider": "black",
-  "python.formatting.blackPath": "/Users/mikadifo/Library/Python/3.11/bin/black",
+  "suggest.noselect": false,
   "languageserver": {
     "haskell": {
       "command": "haskell-language-server-wrapper",
@@ -17,7 +17,11 @@
         "package.yaml",
         "hie.yaml"
       ],
-      "filetypes": ["haskell", "lhaskell"]
+      "filetypes": ["hs", "lhs", "haskell", "lhaskell"]
     }
-  }
+  },
+  "snippets.ultisnips.pythonPrompt": false,
+  "pyright.inlayHints.functionReturnTypes": false,
+  "pyright.inlayHints.variableTypes": false,
+  "pyright.inlayHints.parameterTypes": false
 }
