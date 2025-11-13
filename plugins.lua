@@ -82,5 +82,8 @@ vim.cmd [[
 
 	Plug 'prisma/vim-prisma'
 
+	" GLSL shaders open gl lang
+	Plug 'tikhomirov/vim-glsl'
+
 	call plug#end()
 ]]
